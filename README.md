@@ -1,1 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/dZ-VX5mr)
+Run "word_count.exe" with "input.txt" as argument to execute program. "input.txt" can be modified.
+```
+./word_count.exe input.txt
+```
+
+
+Project mimicks UNIX's wc command that shows the number of character, words, lines in a text file.
+
+
+Executable was made with
+```
+gcc "word_count.c" -o word_count.exe
+```
